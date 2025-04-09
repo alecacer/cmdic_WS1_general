@@ -1,0 +1,6 @@
+streamlit>=1.24.0
+numpy>=1.21.0
+matplotlib>=3.3.0
+plotly>=5.9.0
+scipy>=1.7.0
+streamlit-plotly-events>=0.0.6
