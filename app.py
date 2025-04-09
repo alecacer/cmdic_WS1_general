@@ -7,7 +7,7 @@ from streamlit_plotly_events import plotly_events
 
 # ---------- Configuración inicial ----------
 st.set_page_config(layout="wide")
-st.title("🧪 Taller de Kriging 1D (v1.7.6b Avatar en Sidebar)")
+st.title("🧪 Taller CMDIC de Kriging vs simulación - Interactivo RV0")
 
 # ---------- Mostrar avatar en el sidebar ----------
 import base64
