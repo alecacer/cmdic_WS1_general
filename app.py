@@ -165,6 +165,17 @@ if "last_param_combo" not in st.session_state or st.session_state.last_param_com
 realization = st.session_state.realization
 offset = st.session_state.offset
 
+L = 500
+x_domain = np.arange(L)
+
+if "realization" not in st.session_state:
+    st.session_state.realization = np.zeros(L)
+
+if "points" not in st.session_state:
+    st.session_state.points = []
+
+realization = st.session_state.realization
+
 # ---------- Captura de clics ----------
 fig_for_clicks = go.Figure()
 fig_for_clicks.add_trace(go.Scatter(x=x_domain, y=realization, mode='lines', name='Realidad Desconocida', line=dict(color='black')))
